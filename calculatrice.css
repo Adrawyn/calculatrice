@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(gradient-spots-texture-color.jpg);
+}
+
+h1{
+  font-family: 'Metal Mania', cursive;
+  text-align: center;
+  color: red;
+  font-size: 7rem;
+  -webkit-text-stroke: 2px black;
+
+}
+
+#container{
+    background-color: black;
+    background-attachment: local;
+    margin: 0 auto;
+    height: 330px;
+    width: 380px;
+    border: 2px red solid;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#calculatrice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+}
+
+button{
+    width: 90px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+#resultat{
+    width: 400px;
+    text-align: center;
+    border: 2px red solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 35%;
+    font-size: 30px;
+    background: black;
+    color: white;
+    margin-bottom: 10px;
+}
